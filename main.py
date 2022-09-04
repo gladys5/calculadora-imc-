@@ -1,6 +1,6 @@
 #calculadora imc
 
-peso = int(input('Ingrese su peso en kg'))
+peso = float(input('Ingrese su peso en kg'))
 alturaEnCM = int(input('Ingrese su altura en cm'))
 alturaEnMetros = alturaEnCM / 100
 imc = peso / (alturaEnMetros * alturaEnMetros)
